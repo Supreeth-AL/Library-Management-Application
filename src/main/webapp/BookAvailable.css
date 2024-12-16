@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    line-height: 1.6;
+}
+
+.title > h3 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+}
+
+.outline {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bookavailabel {
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+    width: 90%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-size: 18px;
+    color: black;
+}
+
+td {
+    font-size: 16px;
+    color: white;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
+
+button{
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+    
+}
+
+.addandremove {
+    flex-direction: row;
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button[value="back"] {
+    width: 50px;
+}
+
+@media (max-width: 768px) {
+    .bookavailabel {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    button[value="back"] {
+        width: 60px;
+    }
+
+    button[value="addbook"] {
+        width: 80px;
+    }
+
+    button[value="deletebook"] {
+        width: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title > h3 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        gap: 8px;
+    }
+
+    button {
+        width: 100px;
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    button[value="back"],
+    button[value="addbook"],
+    button[value="deletebook"] {
+        width: auto;
+        padding: 8px;
+    }
+}

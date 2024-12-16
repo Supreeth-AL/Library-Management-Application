@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page</title>
+    <link rel="icon" type="icon" href="images/poland.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Register.css">
+</head>
+
+<body>
+    <header>Public Library</header>
+    <main>
+        <form action="Registration">
+            <div class="title">
+                <h3>Registration to Library</h3>
+            </div>
+            <div class="outline">
+                <div class="register">
+                    <div class="form-input">
+                        <div class="form-item">
+                            <label class="label-container">UserId</label>
+                            <input class="input-container" type="text" name="userid" placeholder="Enter the UserId"
+                                required>
+                        </div>
+
+                        <div class="form-item">
+                            <label class="label-container">Name</label>
+                            <input class="input-container" type="text" name="name" placeholder="Enter Your Name"
+                                required>
+                        </div>
+
+                        <div class="form-item">
+                            <label class="label-container">Email</label>
+                            <input class="input-container" type="text" name="email" placeholder="Enter Your Email"
+                                required>
+                        </div>
+
+                        <div class="form-item">
+                            <label class="label-container">Phone no</label>
+                            <input class="input-container" type="text" name="phoneno"
+                                placeholder="Enter Your Phone Number" required>
+                        </div>
+
+                        <div class="form-item">
+                            <label class="label-container">Password</label>
+                            <input class="input-container" type="text" name="password" placeholder="Enter New Password"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button type="submit">Register</button>
+                        <button type="button" onclick="location.href='login.html'">Login</button>
+                    </div>
+                </div>
+                <div class="images">
+                    <img src="images/registration.png" alt="registration">
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>

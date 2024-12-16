@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.outline {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.title {
+    text-align: center;
+    color: #fff;;
+    font-size: 20px;
+}
+
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 480px;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 4);
+    margin-left: 50px;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+
+label.label-container {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    flex: 0 0 110px;
+    text-align: left;
+}
+
+input.input-container {
+    flex: 0.9;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    height: 27px;
+}
+
+input.input-container:focus {
+    border-color: #4CAF50;
+    outline: none;
+
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 0.7rem;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 30px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button[type="button"] {
+    background-color: #007BFF;
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+.outline>.images>img {
+    width: 300px;
+}
+
+form>h3 {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    margin: 0px 100px;
+}
+
+@media (max-width: 480px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .form-input {
+        margin-left: 0px;
+        width: 380px;
+    }
+
+    .title {
+        text-align: center;
+        color: #fff;;
+        font-size: 22px;
+        padding-top: 30px;
+    }
+
+    .images {
+        display: none;
+    }
+
+
+    .buttons{
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    button{
+        height: 40px;
+        width: 100px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

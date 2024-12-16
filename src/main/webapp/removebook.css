@@ -1,0 +1,105 @@
+:root {
+    --color4: rgb(100, 91, 157);
+}
+
+.title>h3 {
+    color: white;
+    font-size: 28px;
+    margin: 10px 10px 10px 40px;
+    padding-bottom: 20px;
+
+}
+
+.form-input {
+    width: 480px;
+    border: 1px solid;
+    margin-top: 40px;
+    margin-left: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 4);
+    padding: 20px;
+    height: 260px;
+    border: 0px;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    padding: 10px;
+}
+
+input {
+    width: 400px;
+    margin: 10px;
+    height: 25px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+button {
+    width: 60px;
+    border-radius: 3px;
+    border: 0px;
+    height: 20px;
+}
+
+.removebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.images>img {
+    margin-top: 40px;
+    width: 250px;
+
+}
+
+@media (max-width:480px) {
+    .form-input {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+    }
+
+    label {
+        font-size: 22px;
+    }
+
+    input {
+        width: 95%;
+        height: 30px;
+        border-radius: 6px;
+        border: 0px;
+    }
+
+    .buttons {
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    button {
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .images {
+        display: none;
+    }
+}

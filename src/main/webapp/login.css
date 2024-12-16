@@ -1,0 +1,179 @@
+:root {
+    --color1: rgb(72, 61, 139);
+    --color2: rgb(124, 114, 187);
+    --color3: white;
+    --color4: rgb(100, 91, 157);
+}
+
+.outline {
+    /* border: px solid white; */
+    border-radius: 9px;
+    margin: 0px auto;
+    padding: 30px;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.loginpage {
+
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.label-container {
+    color: white;
+    font-size: 20px;
+}
+
+.label-container,
+.input-container {
+    padding: 10px;
+}
+
+input {
+    flex: 0.9;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    height: 27px;
+    width: 300px;
+}
+
+
+.images>img {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 0.7rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 30px;
+    width: 80px;
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button[type="button"] {
+    background-color: #007BFF;
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+.title>h3 {
+    color: white;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 480px;
+    margin: 0px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 4);
+}
+
+.form-item {
+    margin-left: 60px;
+    padding: 10px;
+}
+
+
+@media (max-width:768px) {
+    .loginpage {
+        display: flex;
+    }
+
+    .form-input {
+        margin: 20px 40px;
+    }
+
+    .title {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    label {
+        color: red;
+    }
+
+    .buttons {
+        margin: 20px;
+        margin-top: 40px;
+    }
+
+    .images {
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px){
+    .form-input{
+        width: 400px;
+        margin-left: 15px;
+    }
+
+    .title {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .form-item{
+        margin-left: 10px;
+    }
+    label{
+        margin: 0px;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    button{
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+}

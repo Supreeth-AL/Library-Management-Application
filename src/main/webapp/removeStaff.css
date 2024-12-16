@@ -1,0 +1,115 @@
+.form-input {
+    width: 600px;
+    border: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 4);
+    border-radius: 8px;
+    height: 200px;
+}
+
+.removeStafflibrary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    height: 25px;
+    width: 60%;
+}
+
+.buttons{
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    gap: 20px;
+}
+button{
+    border: 0px;
+    border-radius: 3px;
+    height: 20px;
+}
+
+button[value="submit"]{
+    width:70px ;
+}
+
+
+button[value="back"]{
+    width:70px ;
+}
+
+.images > img{
+    width: 230px;
+}
+
+.outline{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media (max-width: 480px){
+    .form-input{
+        width: 400px;
+        height: 350px;
+    }
+
+    .title{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .form-item{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    label{
+        padding: 5px;
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    input{
+        width: 90%;
+        margin: 10px auto;
+        height: 28px;
+        border: 0px;
+        border-radius: 4px;
+    }
+    .buttons{
+        margin-top: 50px;
+    }
+
+    button{
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .images{
+        display: none;
+    }
+}

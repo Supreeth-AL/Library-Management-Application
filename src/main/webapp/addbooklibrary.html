@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add book to Library</title>
+    <link rel="icon" type="icon" href="images/poland.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="addbooklibrary.css">
+</head>
+
+<body>
+    <header>Public Library</header>
+    <form action="addbooklibrary">
+        <div class="outline">
+            <div class="addbooklibrary">
+                <div class="form-input">
+                    <div class="title">
+                        <h3>Add book to Library</h3>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="label-container">Book ID</label>
+                        <input class="input-container" type="text" name="lbookid" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="label-container" >Book Name</label>
+                        <input class="input-container" type="text" name="lbookname" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="label-container">Book Author</label>
+                        <input class="input-container" class="input-container" type="text" name="lbookauthor" required>
+                    </div>
+
+                    <div class="form-item">
+                        <label class="label-container">Book Copies</label>
+                        <input class="input-container" type="text" name="lbookcopies" required>
+                    </div>
+
+                    <div class="buttons">
+                        <button type="submit">Add</button>
+                        <button type="button" onclick="location.href='BookAvailable.jsp'">back</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="images">
+                <img src="images/bookshelf.png" alt="bookshelf">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

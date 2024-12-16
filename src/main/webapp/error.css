@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.errorpage{
+    
+    margin: 20px auto;
+    width: 80%;
+}
+
+.pagetitle > h2{
+    
+    text-align: center;
+    color: white;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images > img{
+    width: 300px; 
+}
+
+.buttons > button{
+    width: 50px;
+    background-color: aliceblue;
+    border: 0px;
+    border-radius: 8px;
+    height: 20px;
+}
+
+@media (max-width:768px) {
+    .pagetitle > h2{
+        font-size: 40px;
+        padding: 20px;
+    }
+
+    .buttons{
+        margin: 20px;
+        margin-top: 40px;
+    }
+
+}
+
