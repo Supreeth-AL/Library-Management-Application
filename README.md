@@ -10,7 +10,7 @@ Key Features:
   
 Technology Stack:
 1. Frontend: HTML, CSS.
-2. Backend: Java (using JDBC for  MVC architecture).
+2. Backend: Java for robust server-side logic.
 3. Database: MySQL for storing data such as books, users, and transactions.
 4. Development Tools: Eclipse IDE.
 
